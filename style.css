@@ -24,3 +24,13 @@ body {
     top: -50%;
     border-radius: 50px;
 }
+
+.heart:after {
+    content: '';
+    position: absolute;
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    right: -50%;
+    border-radius: 50px;
+}
